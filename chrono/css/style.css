@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(10, 201, 185);
+}
+.display{
+   width:350px;
+   text-align: center;
+}
+ h6{
+    font-size:40px;
+    color:white;
+}
+
+.display img{
+    width:200px;
+    height:180px;
+    text-align:center ;
+    border-radius:250px;
+    margin:-50px 0px 0px 0px;
+}
+
+ button{
+    text-align:center;
+    width:7em;
+    height:4em;
+    margin-right:20px;
+    transition-duration: 0.4s;
+    background-color:rgb(247, 71, 48);
+    color:white;
+    border-color: rgb(247, 71, 48);
+}
+
+p {
+    color: #f1f8f2;
+    font-size:50px;
+    margin-top:10px;
+
+  }
+ 
+button:hover {
+    background-color: #0680b1; /* Green */
+    border-color:#0680b1 ;
+    color: white;
+  }
